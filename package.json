@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
+    "publish": "electron-forge publish",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
     "make": "electron-forge make"
@@ -18,9 +19,11 @@
     "@electron-forge/maker-squirrel": "^6.4.2",
     "@electron-forge/maker-zip": "^6.4.2",
     "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "@electron-forge/publisher-github": "^6.4.2",
     "electron": "^27.0.2"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^3.0.0"
   }
 }
